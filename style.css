@@ -2,7 +2,6 @@
     box-sizing: border-box;
 }
 
-
 body {
     font-family:'Kumbh Sans', sans-serif;
     display: flex;
@@ -14,14 +13,10 @@ body {
                       url(images/bg-pattern-bottom.svg);
     background-position: bottom 10em right 42em,
                          top 15em left 42em;
-    background-size: auto;
     background-repeat: no-repeat;
-    min-width: 100%;
-    min-height: 100%;
     /*Useful guide on the background properties applied here can be found at 
     [https://css-tricks.com/css-basics-using-multiple-backgrounds/] */
 }
-
 
 .container {
     max-height: 70vh;
