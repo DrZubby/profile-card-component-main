@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family:'Kumbh Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(/images/bg-pattern-top.svg),
+                      url(/images/bg-pattern-bottom.svg);
+    background-position: bottom 10em right 42em,
+                         top 15em left 42em;
+    background-size: auto;
+    background-repeat: no-repeat;
+    min-width: 100%;
+    min-height: 100%;
+    /*Useful guide on the background properties applied here can be found at 
+    [https://css-tricks.com/css-basics-using-multiple-backgrounds/] */
+}
+
+
+.container {
+    max-height: 70vh;
+    max-width: 20em ;
+    background-color: white;
+    margin-bottom: 4em;
+    margin-top: 6em;
+    position: relative;
+    padding: .5em .5em .5em auto;
+    border-radius: 15px;
+}
+
+#bg-pattern>img {   
+    width: 20em;
+    border-radius: 15px 15px 0px 0px;
+}
+
+#picture {
+    position: absolute;
+    top: 4.5em;
+    left: 6.5em;
+}
+
+#picture>img {
+    border: 5px solid white;
+    border-radius: 100%;
+}
+
+#name-age, .stats-heading {
+    font-size: 18px;
+}
+
+#name-age {
+    margin: 3.5em auto .5em 5.5em;
+}
+
+#name-age, #city, .inline {
+    color: hsl(227, 10%, 46%);
+}
+
+#city {
+    margin: 0em auto 1.5em 8em;
+}
+
+#stats {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0em;
+    margin-bottom: .5em;
+    padding-bottom: .5em;
+    padding-left: 1.5em;
+    padding-top: 1em;
+    border-top: .1px solid hsla(0, 20%, 90%, 0.945);
+}
+
+.stats-heading {
+    font-weight: bold;
+    padding-bottom: .3em;
+    color: hsl(229, 23%, 23%);
+}
+
+#profile-name {
+    font-weight: 600;
+    color: hsl(229, 23%, 23%);
+}
+
+.inline {
+    display: flex;
+    flex-direction: column;
+    margin: 1em auto auto .5em;
+    align-items: center;
+    font-size: .7em;
+}
+
+.attribution { 
+    font-size: 18px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
