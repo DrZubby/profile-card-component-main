@@ -11,14 +11,9 @@ body {
     background-color: hsl(185, 75%, 39%);
     background-image: url(images/bg-pattern-top.svg),
                       url(images/bg-pattern-bottom.svg);
-<<<<<<< HEAD
     background-position: bottom 20vh right 51vw,
                          top 45vh left 50vw;
     background-size: auto;
-=======
-    background-position: bottom 10em right 42em,
-                         top 15em left 42em;
->>>>>>> 662d515a485fb63041cf06a69bcf12e0826c7dcf
     background-repeat: no-repeat;
     /*Useful guide on the background properties applied here can be found at 
     [https://css-tricks.com/css-basics-using-multiple-backgrounds/] */
